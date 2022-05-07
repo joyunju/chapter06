@@ -18,9 +18,9 @@ public class Server {
 
 		// ServerSocket.bind(ip,port);
 		// ServerSocket.bind(new InetSocketAddress(ip, port));
-		// ip 검색 --> 명령 프롬프트 ipconfig --> IPv4 주소 체크 / mas :
+		// ip 검색 --> 명령 프롬프트 ipconfig --> IPv4 주소 체크 / mas : ifconfig | grep inet
 		// ip는 .이 있어서 문자열이라서 " " 안에 작성
-		ServerSocket.bind(new InetSocketAddress("192.168.25.18", 10001)); // port번호는 개인이 설정
+		ServerSocket.bind(new InetSocketAddress("192.168.35.68", 10001)); // port번호는 개인이 설정
 
 		// accept() : 허락할꺼야
 		System.out.println("<서버시작>");
