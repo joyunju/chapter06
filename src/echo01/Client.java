@@ -63,6 +63,7 @@ public class Client {
 		System.out.println("==============================");
 		System.out.println("<클라이언트 종료>");
 		
+		sc.close();
 		br.close();
 		bw.close();
 		socket.close();
